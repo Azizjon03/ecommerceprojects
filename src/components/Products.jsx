@@ -21,7 +21,6 @@ const Products = () => {
                 setLoading(false);
             }
         };
-
         fetchData();
     }, []);
 
@@ -36,7 +35,6 @@ const Products = () => {
             </>
         );
     };
-
     const filterProducts = (category) => {
         console.log(data, 'tets dat')
         if (category === 'All') {
